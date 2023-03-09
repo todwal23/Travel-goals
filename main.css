@@ -101,3 +101,83 @@ font-family: 'Raleway', sans-serif;
  .destination strong {
     color: rgb(0, 160, 117);
  }
+
+ .second-page {
+    margin-top: 150px;
+ }
+
+ div.container ul {
+    display: inline-flex;
+ }
+
+ .section1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+ }
+
+ .placesToGo img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    box-shadow: 2px 4px 8px rgb(69, 69, 69);
+    border-radius: 12px;
+    margin: 0 auto;
+ }
+
+ .placesToGo p {
+    text-align: center;
+ }
+
+ .section2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+ }
+
+ .placesToGo1 img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px 10px;
+    box-shadow: 2px 4px 8px rgb(69, 69, 69);
+    border-radius: 12px;
+ }
+
+ .placesToGo1 p {
+    text-align: center;
+ }
+
+ .section3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+ }
+
+ .placesToGo2 img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 5px 10px;
+    box-shadow: 2px 4px 8px rgb(69, 69, 69);
+    border-radius: 12px;
+ }
+
+ .placesToGo2 p {
+    text-align: center;
+ }
