@@ -1,9 +1,44 @@
-header {
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
+
+#container {
     position: static;
+}
+
+main ul {
+    width: 800px;
+    margin: 0 auto;
 }
 
 main li img {
     width: 300px;
     height: 280px;
-    
+    object-fit: cover;
+}
+
+main li {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.item-content {
+    padding: 24px;
+}
+
+div.actions a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 30px;
+    color: rgb(59, 72, 189);
+}
+
+div.actions a:hover {
+    background-color: aqua;
+    border-radius: 8px;
+    float: right;
 }
