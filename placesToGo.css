@@ -29,6 +29,18 @@ main li {
     padding: 24px;
 }
 
+.item-content p {
+    font-size: 18px;
+    text-align: left;
+    text-transform: capitalize;
+    padding: 2px 5px 35px 5px;
+}
+
+.item-content h3 {
+    font-size: 29px;
+    text-transform: uppercase;
+}
+
 div.actions a {
     display: flex;
     justify-content: flex-end;
