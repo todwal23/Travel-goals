@@ -21,7 +21,7 @@ body {
 }
 
 header a {
-    color: rgb(255, 251, 0);
+    color: rgb(249, 246, 33);
     font-size: 20px;
     padding: 6px;
     text-shadow: 1px 1px 2px rgba(0 , 0, 0, 0.2);
@@ -32,6 +32,10 @@ header a:hover {
     color: rgb(77, 77, 77);
     background-color: rgb(255, 201, 0);
     
+}
+
+nav ul li a {
+    margin-left: 0;
 }
 
 ul {
@@ -49,7 +53,7 @@ header ul {
 } */
 
 .about {
-    margin-left: 15px;
+    /* margin-left: 15px; */
 }
 
 ul a {

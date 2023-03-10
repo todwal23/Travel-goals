@@ -129,10 +129,12 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 10px;
+    object-fit: cover;
+    overflow: hidden;
+    /* padding: 7px; */
     box-shadow: 2px 4px 8px rgb(69, 69, 69);
     border-radius: 12px;
-    margin: 0 auto;
+    margin: 0 15px;
  }
 
  .placesToGo p {
@@ -153,8 +155,10 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 5px 10px;
+    margin: 0 15px;
+    /* padding: 5px 10px; */
+    object-fit: cover;
+    overflow: hidden;
     box-shadow: 2px 4px 8px rgb(69, 69, 69);
     border-radius: 12px;
  }
@@ -177,8 +181,10 @@ font-family: 'Raleway', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
-    padding: 5px 10px;
+    margin: 0 15px;
+    object-fit: cover;
+    overflow: hidden;
+    /* padding: 5px 10px; */
     box-shadow: 2px 4px 8px rgb(69, 69, 69);
     border-radius: 12px;
  }
