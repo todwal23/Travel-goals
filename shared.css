@@ -4,7 +4,7 @@ body {
 }
 
 .body {
-    background-color: lightgrey;
+    background-color: rgb(190, 187, 187);
 }
 
 #container {
@@ -28,9 +28,9 @@ header a {
     border-radius: 6px;
 }
 
-header a:hover {
+header nav a:hover {
     color: rgb(77, 77, 77);
-    background-color: rgb(255, 201, 0);
+    background-color: rgb(230, 228, 221);
     
 }
 
@@ -51,10 +51,6 @@ header ul {
 /* .destination {
     padding: 10px;
 } */
-
-.about {
-    /* margin-left: 15px; */
-}
 
 ul a {
     text-decoration: none;

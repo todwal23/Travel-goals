@@ -11,6 +11,14 @@ font-family: 'Raleway', sans-serif;
     background-size: cover;
  }
 
+ #page-logo a {
+    color: rgb(183, 230, 235);
+}
+
+header a {
+    color: rgb(183, 230, 235);
+}
+
  #hero-content {
     width: 600px;
     height: 150px;
@@ -104,7 +112,7 @@ font-family: 'Raleway', sans-serif;
  }
 
  strong {
-    color: rgb(0, 160, 117);
+    color: rgb(3, 91, 68);
  }
 
  .second-page {

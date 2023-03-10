@@ -6,6 +6,19 @@ body {
     position: static;
 }
 
+#page-logo a {
+    color: rgb(183, 230, 235);
+}
+
+header a {
+    color: rgb(183, 230, 235);
+}
+
+header nav a:hover {
+    background-color: rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+
 main ul {
     width: 95%;
     margin: 0 auto;
@@ -62,10 +75,12 @@ ul li {
     font-size: 29px;
     text-transform: uppercase;
     color: rgb(100, 100, 100);
+    margin: 0;
 }
 
 .actions {
     text-align: right;
+    padding-top: 50px;
 }
 
 div.actions a {
