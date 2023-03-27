@@ -4,6 +4,10 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Raleway', sans-serif;
  */
 
+ section {
+   margin: -17px;
+ }
+
  #hero {
     height: 830px;
     background-image: url("/images/places/ocean.jpg");
@@ -12,7 +16,7 @@ font-family: 'Raleway', sans-serif;
  }
 
  #page-logo a {
-    color: rgb(183, 230, 235);
+    color: rgb(129, 225, 235);
 }
 
 header a {
